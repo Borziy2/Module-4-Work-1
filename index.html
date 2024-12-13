@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Дорошенко Данил</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navigation">
+        <ul>
+          <li><a href="/">Дорошенко Данил</a></li>
+          <li id="header>a"><a href="">Все статьи</a></li>
+          <li id="Header>a"><a href="">Контакты</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="content">
+      <section class="section about">
+        <div class="section_element">
+          <h2>Обо мне</h2>
+          <img width="200" src="person.jpg" alt="Фотка" />
+          <p>Меня зовут Данил Дорошенко. Я учусь в школе</p>
+          <a href="https://vk.com/id544473117">Мой ВК</a>
+        </div>
+        <div class="section_element">
+          <h3>Мои хобби</h3>
+          <ul>
+            <li>Програмист</li>
+            <li>Механик</li>
+          </ul>
+        </div>
+        <div class="section_element">
+          <h3>Технологии</h3>
+          <table border="1" class="table">
+            <thead>
+              <tr>
+                <th>Oбласть</th>
+                <th>Tехнологии</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Backand</td>
+                <td>Node.js, Express, C#, .NET</td>
+              </tr>
+              <tr>
+                <td>Frontend</td>
+                <td>React.js</td>
+              </tr>
+              <tr>
+                <td>Базы данных</td>
+                <td>MongoDB, My SQL, MS SQL, Server</td>
+              </tr>
+              <tr>
+                <td>Другое</td>
+                <td>Git, Docker, GCP</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="section articles">
+        <h2>Статьи</h2>
+        <article class="section_element">
+          <h3>почему я выбрал JavaScript</h3>
+          <p>В этой статье я хочу расказать почему програмирую</p>
+          <a href="javascript.html">Читать</a>
+        </article>
+        <article class="section_element">
+          <h3>Технологии,которые я применяю</h3>
+          <p>В этой статье я хочу расказаваю про свои технологии</p>
+          <a href="technology.html">Читать</a>
+        </article>
+      </section>
+
+      <section class="section contacs">
+        <h2>Написать мне</h2>
+        <form class="form flex-container direction-column">
+          <div class="flex-container">
+            <label for="name">Имя</label>
+            <input type="text" id="name" />
+          </div>
+          <br />
+          <div class="flex-container">
+            <label for="email">Почта</label>
+            <input type="email" id="email" />
+          </div>
+          <br />
+          <div class="flex-container">
+            <label for="Message">Сообщения</label>
+            <br />
+            <textarea
+              name="message"
+              id="message"
+              cols="30"
+              rows="10"
+            ></textarea>
+          </div>
+          <div>
+            <button type="submit">Отправить</button>
+          </div>
+          <br />
+        </form>
+      </section>
+    </div>
+    <script src="dom1.js"></script>
+  </body>
+</html>

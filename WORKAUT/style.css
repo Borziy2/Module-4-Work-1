@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+}
+
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    background-color:rgb(88, 150, 150);
+}
+
+.card input{
+    max-width: 80%;
+}
