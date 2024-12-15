@@ -1,4 +1,6 @@
-let headerLInk1 = document.getElementById("header-article1");
-let headerLInk2 = document.getElementById("header-article2");
-console.log(headerLInk1);
-console.log(headerLInk2);
+let headerLInk = document.getElementById("header-article");
+let contactInfo = document.getElementById("link to contacts");
+console.log(headerLInk);
+console.log(contactInfo);
+
+document.getElementById("header-article").innerText = "Все статьи (2)";
