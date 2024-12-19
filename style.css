@@ -60,41 +60,69 @@ button:hover{
 }
 
 
-.section{
+/* .section{
    border-radius: 5px; 
    padding:20px ;
    max-width: 800px;
    margin: auto;
    margin-bottom: 20px;
+} */
+
+.section-about{
+    border-radius: 5px; 
+    padding:20px ;
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 20px;
 }
 
-.section_element{
+.section-contacs{
+    border-radius: 5px; 
+    padding:20px ;
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 20px;
+    background-color:burlywood ;
+ }
+
+ .section-articles{
+    border-radius: 5px; 
+    padding:20px ;
+    max-width: 800px;
+    margin: auto;
+    margin-bottom: 20px;
+    background-color:burlywood ;
+    background-color:#c7ffcd ;
+
+ }
+
+.section-element{
     margin-bottom: 20px;
 
 }
 
-.about{
+.section-about{
     background-color: #ced5d9;
 }
 
-.about ul{
+.section-about ul{
     margin-left: 20px;
 }
 
-.about p {
+.section-about p {
     margin-bottom: 20px;
-}
+} 
 
-.articles{
+/* .articles{
     background-color:#c7ffcd ;
 }
 
 .contacs{
     background-color:burlywood ;
-}
+} */
 
-.contacs input,
- .contacs textarea {
+.section-contacs input,
+.section-contacs textarea {
     background-color: #e3e3ef;
     border: 1px #a7a7a7 solid;
     flex: 3;
@@ -159,10 +187,10 @@ button:hover{
     color: #fff;
  }
 
-/* 
+
  .navigation{
     margin: 0 auto;
- } */
+ }
 
 
 
