@@ -19,6 +19,5 @@ contactInfo.addEventListener("click", () => {
   contactBlock.scrollIntoView({ behavior: "smooth" });
 });
 
-
 let articleElementsnew = articleElements();
 articlesBlock.append(...articleElementsnew);

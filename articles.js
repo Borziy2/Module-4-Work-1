@@ -1,22 +1,7 @@
-let articles = [
-  {
-    title: "почему я выбрал JavaScript",
-    text: "В этой статье я хочу расказать почему програмирую",
-    link: "javascript.html",
-  },
-  {
-    title: "Технологии,которые я применяю",
-    text: "В этой статье я хочу расказаваю про свои технологии",
-    link: "technology.html",
-  },
-  {
-    title: "GIT",
-    text: "В этой статье я раскажу почуму я использую GIT",
-    link: "git.html",
-  },
-];
+import { getArticles } from "./articlesService.js";
 
 export let articleElements = () => {
+  let articles = getArticles();
   return articles.map((article) => {
     let articleEl = document.createElement("article");
     articleEl.classList.add("section-element");
