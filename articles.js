@@ -17,6 +17,7 @@ export let articleElements = () => {
     linkEl.innerText = article.link;
     linkEl.href = article.link;
     linkEl.innerText = "Читать";
+    linkEl.href = `article.html?articleId=${article.id}`;
     articleEl.appendChild(linkEl);
     return articleEl;
   });
